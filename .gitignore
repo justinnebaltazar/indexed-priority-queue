@@ -1,0 +1,51 @@
+### Visual Studio Code ###
+.vscode/
+
+### C++ ###
+# Ignore object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Ignore C++ debugging files
+*.gch
+*.pch
+*.dSYM/
+*.ipch/
+*.pdb
+
+# Ignore C++ build system files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore compiled static and dynamic libraries
+*.a
+*.lib
+*.so
+*.dll
+
+# Ignore build output directories (for typical C++ projects)
+bin/
+build/
+dist/
+
+### General ###
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE files for other development environments
+.idea/
+.clangd/
