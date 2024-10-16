@@ -23,7 +23,6 @@
 # Ignore C++ build system files
 CMakeFiles/
 CMakeCache.txt
-Makefile
 cmake_install.cmake
 
 # Ignore compiled static and dynamic libraries
